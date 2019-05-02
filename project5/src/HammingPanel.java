@@ -54,7 +54,6 @@ public class HammingPanel extends JPanel implements ActionListener, ChangeListen
 	private JTextField distanceFourText;
 	private JButton addStationButton;
 	private JTextField addStationInput;
-	private InputStream imagePath;
 	private BufferedImage image;
 	private JLabel imageLabel;
 	
