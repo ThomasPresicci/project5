@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -272,6 +273,7 @@ public class HammingPanel extends JPanel implements ActionListener, ChangeListen
 		layoutConst.gridy = 0;
 		add(imageLabel, layoutConst);
 		
+		setBackground(Color.ORANGE);
 		setPreferredSize(new Dimension(400, 1000));
 	}
 	
