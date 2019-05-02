@@ -385,7 +385,6 @@ public class HammingPanel extends JPanel implements ActionListener, ChangeListen
 					newMesonetData[index] = mesonetData[index];
 				newMesonetData[mesonetData.length] = inputText;
 				mesonetData = newMesonetData;
-				System.out.println(mesonetData);
 				Arrays.sort(mesonetData);	//Sorts the new names
 				DefaultComboBoxModel<String> model = new DefaultComboBoxModel<String>(mesonetData);
 				stationList.setModel(model);
